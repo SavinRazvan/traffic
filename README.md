@@ -1,30 +1,30 @@
 ### Traffic Sign Classification with TensorFlow
 
-This project is part of CS50's Introduction to Artificial Intelligence with Python. The objective is to create a neural network capable of classifying traffic signs from images using the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
+This project aims to develop a neural network using TensorFlow to classify traffic signs from images, utilizing the German Traffic Sign Recognition Benchmark (GTSRB) dataset.
 
 #### Features
-1. **Data Preparation**: 
-   - Images are preprocessed using OpenCV.
-   - Data augmentation techniques are applied to increase the diversity of the training data.
+1. **Data Preparation**:
+   - Images are preprocessed using OpenCV for resizing and normalization.
+   - Data augmentation techniques are applied to enhance the diversity of the training dataset.
 
-2. **Model Development**: 
-   - A TensorFlow-based neural network is built and trained.
-   - Model architecture includes convolutional layers for feature extraction and fully connected layers for classification.
+2. **Model Development**:
+   - A convolutional neural network (CNN) is constructed with TensorFlow.
+   - The architecture includes convolutional layers for feature extraction, pooling layers for downsampling, and fully connected layers for final classification.
 
-3. **Evaluation**: 
-   - Model performance is validated on a test dataset.
-   - The model is used to make predictions on unseen data.
+3. **Evaluation**:
+   - The model's performance is validated using a separate test dataset.
+   - Predictions are made on unseen data to evaluate real-world applicability.
 
-4. **Documentation**: 
-   - Detailed documentation of the experimentation process is provided.
+4. **Documentation**:
+   - Comprehensive documentation of the experimentation process, including hyperparameter tuning and model iterations.
 
 #### Dataset
-The GTSRB dataset can be downloaded from the following links:
+The GTSRB dataset can be accessed via the following links:
 - [GTSRB - Training and Testing Dataset](https://cdn.cs50.net/ai/2023/x/projects/5/gtsrb.zip)
 - [GTSRB Small - Training and Testing Dataset](https://cdn.cs50.net/ai/2023/x/projects/5/gtsrb-small.zip)
 
 #### Code Modifications
-The current code includes modifications for improved performance and additional features.
+This implementation includes several enhancements for improved model performance and additional functionality.
 
 #### Additional Resources
-For more details, visit the [project page](https://cs50.harvard.edu/ai/2024/projects/5/traffic/).
+For further information, visit the [project page](https://cs50.harvard.edu/ai/2020/projects/5/traffic/).
